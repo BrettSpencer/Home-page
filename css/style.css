@@ -1,0 +1,261 @@
+/* Dark Mass CSS */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body {font-family:'Avenir Next','Helvetica Neue',Helvetica,Arial,sans-serif;
+font-size: 100%;
+}
+
+#wrapper {margin: auto;}
+
+#hero-banner {background-image:url(../images/banner.jpg);
+height: 750px;
+width: 100%;
+background-size: cover;}
+
+#page-header {background-image:url(/images/cropped.jpg);
+height: 300px;
+width: 100%;
+}
+
+#page-header img {padding: 1em;}
+
+.hero-text {padding-top: 125px;}
+
+.hero-text h1 {font-size: 72px;
+text-align: center;
+color:white;
+font-weight: 100;}
+
+.hero-text h2 {text-align: center;
+margin-top: 10px;
+color:gray;
+font-size: 17px;
+font-weight: 300;}
+
+/* Navigation */
+
+nav {margin:auto;
+background: rgba(221, 221, 221, 0.6);
+border-bottom:  solid 6px #dddddd;
+margin-top: -50px;
+}
+
+nav ul {text-align: center;}
+
+nav ul li {display: inline;
+position: relative;
+}
+
+nav ul li a {font-size: 20px;
+display: inline-block;
+padding: 15px 10px;
+color: #5e5e5e;
+text-decoration: none;}
+
+nav ul li a:hover,
+nav ul li a:focus {color:white;}
+
+.social {margin:auto;
+width:300px;
+padding-top:40px;}
+
+.social ul li {display: inline;
+padding-left:25px;}
+
+.social ul li a {text-decoration: none;}
+
+.social ul li a:hover,
+.social ul li a:focus {;}
+
+/* Content */
+
+#content {margin:auto;}
+
+section {width:80%;
+margin:auto;
+padding-bottom: 50px;
+}
+
+section h1 {text-align: center;
+margin-top:50px;
+padding-top:20px;
+}
+
+.bio {width:250px;
+display:inline;
+float:left;
+padding: 25px;
+}
+
+.bio p {text-align: left;
+}
+
+.about {height:400px;
+        margin:auto;
+        width:900px;
+}
+
+.about h1 {
+    padding-bottom: 20px;
+}
+
+.about p {padding-bottom: 10px;}
+
+.work-piece {width:800px;
+margin: auto;
+border: solid 1px gray;
+margin-top:50px;
+padding:0 40px 0 40px;
+}
+
+.work-piece h3 {text-align: center;
+margin-top:20px;}
+
+.work-piece p {text-align: center;
+margin-top:5px;
+padding-bottom: 20px;
+}
+
+.work-piece a img {display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.work-piece a:hover,
+.work-piece a:focus {background: rgba(175, 217, 206, .5);
+}
+
+p {text-align: center;
+color:gray;}
+
+/* Footer */
+
+footer {width: 100%;
+clear: both;
+display: block;}
+
+footer ul {text-align: center;}
+
+footer ul li {display: inline;}
+
+footer ul li a {text-decoration: none;}
+
+footer ul li a:hover,
+footer ul li a:focus {;}
+
+.copywrite {margin:auto;
+background:grey;
+height:40px;
+line-height: 40px;}
+
+.copywrite ul {text-align: center;}
+
+.copywrite ul li {display: inline;
+color:white;
+padding: 10px;
+}
+
+.copywrite a {text-decoration: none;
+color:white}
+
+.copywrite a:hover,
+.copywrite a:focus{color:black;}
+
+/* Basic Grey Form */
+
+.g-recaptcha {padding:0 0 20px 110px;}
+
+.basic-grey {
+margin-top:20px;
+margin-left: auto;
+margin-right: auto;
+max-width: 500px;
+background: #F7F7F7;
+padding: 25px 15px 25px 10px;
+font: 12px Georgia, "Times New Roman", Times, serif;
+color: #888;
+text-shadow: 1px 1px 1px #FFF;
+border: 1px solid #E4E4E4;
+}
+
+.basic-grey h1 {
+font-size: 25px;
+padding: 0 0 10px 40px;
+display: block;
+border-bottom: 1px solid #E4E4E4;
+margin: -10px -15px 30px -10px;
+color: #888;
+}
+
+.basic-grey h1>span {
+display: block;
+font-size: 11px;
+}
+
+.basic-grey label {
+display: block;
+margin: 0;
+}
+
+.basic-grey label>span {
+float: left;
+width: 20%;
+text-align: right;
+padding-right: 10px;
+margin-top: 10px;
+color: #888;
+}
+
+.basic-grey input[type="text"], .basic-grey input[type="email"], .basic-grey textarea, .basic-grey select {
+border: 1px solid #DADADA;
+color: #888;
+height: 30px;
+margin-bottom: 16px;
+margin-right: 6px;
+margin-top: 2px;
+outline: 0 none;
+padding: 3px 3px 3px 5px;
+width: 70%;
+font-size: 12px;
+line-height: 15px;
+box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+.basic-grey textarea {
+padding: 5px 3px 3px 5px;
+}
+
+.basic-grey select {
+background: #FFF url('down-arrow.png') no-repeat right;
+background: #FFF url('down-arrow.png') no-repeat right;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+text-indent: 0.01px;
+text-overflow: '';
+width: 70%;
+height: 35px;
+line-height: 25px;
+}
+
+.basic-grey textarea {
+height: 100px;
+}
+
+.basic-grey .button {
+background: #E27575;
+border: none;
+padding: 10px 25px 10px 25px;
+color: #FFF;
+box-shadow: 1px 1px 5px #B6B6B6;
+text-shadow: 1px 1px 1px #9E3F3F;
+cursor: pointer;
+}
+
+.basic-grey .button:hover {
+background: #CF7A7A
+}
